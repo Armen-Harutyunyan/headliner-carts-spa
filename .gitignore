@@ -1,0 +1,6 @@
+nod.env.local
+
+.idea/
+.vscode/es/
+dist/
+.idea

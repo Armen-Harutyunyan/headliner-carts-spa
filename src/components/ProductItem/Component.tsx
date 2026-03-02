@@ -52,12 +52,18 @@ const ProductTitle = styled.span`
 const Price = styled.span`
   font-size: 0.78rem;
   color: ${colors.textMuted};
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `
 
 const QtyControls = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: fit-content;
+  position: relative;
+  z-index: 10;
 `
 
 const QtyButton = styled.button`
